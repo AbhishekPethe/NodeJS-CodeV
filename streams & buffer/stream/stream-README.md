@@ -18,3 +18,14 @@ The contents arrive in chunks and you transfer in chunks while the remaining
 contents arrive over time
 
 
+--Types of Streams--
+
+Readable streams from which data can be read
+Writable streams to which we can write data
+Duplex streams that are both Readable and Writable
+Transform streams that can modify or transform the data as it is written and read
+Ex: Reading from a file as readable stream
+Ex: Writing to a file as writable stream
+Ex: Sockets as a duplex stream
+Ex: File compression where you can write compressed data and read
+de-compressed data to and from a file as a transform stream
