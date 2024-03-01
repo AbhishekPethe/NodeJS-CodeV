@@ -17,7 +17,7 @@ const writeablestream1 = fs.createWriteStream("./file3.txt")
 
 readableStream1.pipe(writeablestream1)
 
-// pipe returns a destination stream which enables chaining condition is that the destination stream is readable , duplex or transform  stream
+// pipe returns a destination stream which enables chaining , condition is that the destination stream is readable , duplex or transform  stream
 
 
 
@@ -27,4 +27,4 @@ const zlib = require("node:zlib")
 // zlib provides us with a transform stream
 const gzip = zlib.createGzip()
 
-readableStream1.pipe(gzip).pipe(fs.WriteStream("./file4.txt.gz"))
+readableStream1.pipe(gzip).pipe(fs.WriteStream("./file4.txt.gz")) 

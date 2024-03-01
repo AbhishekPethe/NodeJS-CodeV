@@ -7,8 +7,6 @@ computer
 Process streams of data in chunks as they arrive instead of waiting for the entire
 data to be available before processing
 
-Process streams of data in chunks as they arrive instead of waiting for the entire
-data to be available before processing
 Ex: watching a video on YouTube
 The data arrives in chunks and you watch in chunks while the rest of the data
 arrives over time
