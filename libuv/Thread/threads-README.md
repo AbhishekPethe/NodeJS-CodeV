@@ -9,3 +9,5 @@ Libuv:
 "Sure, main thread. Unlike you, who is single threaded, I have a pool of threads
 that I can use to run some of these time consuming tasks. When the task is done,
 the file contents are retrieved and the associated callback function can be run."
+
+![Thread Pool Size](https://github.com/AbhishekPethe/NodeJS-CodeV/assets/82797230/9228f20d-56e6-47d6-b891-3db949fcfa49)
