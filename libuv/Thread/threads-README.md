@@ -10,4 +10,5 @@ Libuv:
 that I can use to run some of these time consuming tasks. When the task is done,
 the file contents are retrieved and the associated callback function can be run."
 
-![Uploading Thread Pool Size.png…]()
+
+![Thread Pool Size](https://github.com/AbhishekPethe/NodeJS-CodeV/assets/82797230/109cb114-7807-4147-bdce-9d4c6cd5be68)
