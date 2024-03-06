@@ -26,3 +26,9 @@ If there are more callbacks to be processed, the loop is kept alive for one more
 and the same steps are repeated
 On the other hand, if all callbacks are executed and there is no more code to
 process, the event loop exits.
+
+![Event Loop 2](https://github.com/AbhishekPethe/NodeJS-CodeV/assets/82797230/f26a5840-8b82-4985-93ae-a770133bd3ea)
+
+
+
+![Event Loop (1)](https://github.com/AbhishekPethe/NodeJS-CodeV/assets/82797230/6125a498-b655-4500-85c1-37d446c6f0cc)
