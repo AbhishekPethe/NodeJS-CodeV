@@ -27,6 +27,17 @@ and the same steps are repeated
 On the other hand, if all callbacks are executed and there is no more code to
 process, the event loop exits.
 
+- We use process.nextTick() method to queue into the nextTick queue
+- We resolve or reject a Promise to queue into the Promise queue
+- We use setTimeout or setInterval to queue into the timer queue
+- Execute an async method to queue into the I/O queue
+- Use setImmediate function to queue into the check queue and finally
+- Attach close event listeners to queue into the close queue
+- The order of execution follows the same order listed here
+- nextTick and Promise queues are executed in between each queue and also in between each
+callback execution in the timer and check queues
+
+
 ![Event Loop 2](https://github.com/AbhishekPethe/NodeJS-CodeV/assets/82797230/f26a5840-8b82-4985-93ae-a770133bd3ea)
 
 
